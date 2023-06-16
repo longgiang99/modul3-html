@@ -1,0 +1,39 @@
+header{
+    background-color: #5ba0ff;
+    font-size: 0.8em;
+    font-family: Arial;
+    height: 100px;
+    width: 100%;
+}
+#body{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+
+section{
+    height: 200px;
+    background-color: aqua;
+
+}
+article{
+    height: 200px;
+    background-color: blueviolet;
+}
+#body2{
+    float: left;
+    width: 70%;
+}
+aside{
+    height: 400px;
+    width: 30%;
+    float: right;
+    background-color: cadetblue;
+}
+
+footer{
+    height: 100px;
+    clear: both;
+
+    background-color: bisque;
+}

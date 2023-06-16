@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tạo menu dọc</title>
+  <style>
+    body{
+      font-family: Arial;
+    }
+    #menu,#menu ul,#menu li{
+      padding: 0;
+        margin: 0;
+
+    }
+    #menu li{
+      list-style: none;
+      position: relative;
+      width: 150px;
+      height: 30px;
+      padding: 0 20px;
+      background-color: olivedrab;
+      line-height: 30px;
+      cursor: pointer;
+    }
+    #menu li a{
+      text-decoration: none;
+      color: whitesmoke;
+    }
+    #menu li:hover{
+      background-color: red;
+    }
+    #menu ul ul{
+      position: absolute;
+      top: 0;
+      left: 140px;
+      visibility:hidden;
+    }
+    #menu ul li:hover ul{
+      visibility: visible ;
+    }
+  </style>
+
+</head>
+<body>
+<h3>accp i10</h3>
+<div id="menu">
+  <ul>
+    <li><a href="#">sem1</a>
+    <ul>
+      <li><a href="#">aaaaaaaaaaaaaaaa </a></li>
+      <li><a href="#">bbbbbbbbbbbbbbbb </a></li>
+      <li><a href="#">cccccccccccccccc </a></li>
+      <li><a href="#">dddddddddddddddd </a></li>
+    </ul>
+    </li>
+    <li><a href="#">sem2</a>
+      <ul>
+        <li><a href="#">ddddddddddddddd</a></li>
+        <li><a href="#">eeeeeeeeeeeeeee</a></li>
+        <li><a href="#">fffffffffffffff</a></li>
+        <li><a href="#">ggggggggggggggg</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+</body>
+</html>
